@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <linearGradient id="sweep" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="plate"><path d="M300 40 H900 Q930 40 930 70 V250 Q930 300 880 320 L620 350 Q600 352 580 350 L320 320 Q270 300 270 250 V70 Q270 40 300 40 Z"/></clipPath>
+  </defs>
+  <rect width="1200" height="360" fill="#0D0D0D"/>
+  <g opacity="0.18" stroke="#FFFFFF" stroke-width="2">
+    <line x1="0" y1="300" x2="230" y2="300"/><line x1="0" y1="315" x2="180" y2="315"/><line x1="0" y1="330" x2="130" y2="330"/>
+    <line x1="970" y1="300" x2="1200" y2="300"/><line x1="1020" y1="315" x2="1200" y2="315"/><line x1="1070" y1="330" x2="1200" y2="330"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0 600 200;-1.2 600 200;1.2 600 200;0 600 200;0 600 200" keyTimes="0;0.03;0.06;0.09;1" dur="6s" repeatCount="indefinite"/>
+    <path d="M300 40 H900 Q930 40 930 70 V250 Q930 300 880 320 L620 350 Q600 352 580 350 L320 320 Q270 300 270 250 V70 Q270 40 300 40 Z" fill="#FF5F00"/>
+    <circle cx="315" cy="80" r="9" fill="#111"/><circle cx="885" cy="80" r="9" fill="#111"/>
+    <path d="M600 70 L680 98 V170 Q680 228 600 262 Q520 228 520 170 V98 Z" fill="#111" stroke="#fff" stroke-width="6"/>
+    <text x="600" y="185" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="96" fill="#fff">E</text>
+    <text x="600" y="232" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="30" letter-spacing="4" fill="#FF5F00">MX</text>
+    <text x="600" y="305" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="34" letter-spacing="10" fill="#111">ERAGON.MX</text>
+    <g clip-path="url(#plate)">
+      <rect x="-300" y="0" width="220" height="360" fill="url(#sweep)" transform="skewX(-20)">
+        <animate attributeName="x" values="-300;1300;1300" keyTimes="0;0.35;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+  <text x="1170" y="40" text-anchor="end" font-family="'Courier New', monospace" font-size="16" fill="#FFFFFF" opacity="0.6">RIDER AND GEARHEAD</text>
+</svg>
