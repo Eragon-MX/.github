@@ -1,56 +1,40 @@
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="ERAGON.MX — rider and gearhead" src="./assets/banner-dark.svg" width="100%">
+  <img alt="ERAGON.MX, rider and gearhead" src="./assets/banner-dark.svg" width="100%">
 </picture>
 
-### 🏁 Open-source builds out of the eragon.mx garage
+Rider and gearhead. This is the garage for [eragon.mx](https://eragon.mx): the open-source tools that run the site, built to be self-hosted. Your server, your data. Roll one out and run your own.
 
-**rider and gearhead** · self-hosted everything · built in orange and black
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/metrics-light.svg">
+  <img alt="Org stats: builds, stars, forks and last push" src="./assets/metrics-dark.svg" width="100%">
+</picture>
 
-[![Website](https://img.shields.io/badge/eragon.mx-FF5F00?style=for-the-badge&logoColor=white)](https://eragon.mx)
-![Status](https://img.shields.io/badge/status-in%20the%20shop-111111?style=for-the-badge&labelColor=FF5F00)
-
-</div>
-
-<img src="./assets/divider.svg" width="100%" alt="">
-
-## 🛠️ Spec Sheet
-
-| | |
-|---|---|
-| **Rider** | rider and gearhead |
-| **Class** | MX · open-source · self-hosted |
-| **Displacement** | small builds, big torque |
-| **Fuel** | coffee and premix |
-| **Tires** | knobbies, always |
-| **Status** | 🟠 in the shop, building |
-
-## 🏍️ In the Garage
+## IN THE GARAGE
 
 | Build | What it does | Status |
 |---|---|---|
-| 🔗 **[collar-landing](https://github.com/YOUR-ORG/collar-landing)** | Self-hosted link-in-bio page for QR codes and NFC tags, with a private backend for you and your keyholder | 🟠 Building |
-| 📸 **[gallery](https://github.com/YOUR-ORG/gallery)** | Photo gallery setup with prints and booking | ⚪ On the stand |
-| 🧰 **[toolbox](https://github.com/YOUR-ORG/toolbox)** | Small scripts and configs pulled from the other builds | ⚪ On the stand |
+| **[collar-landing](https://github.com/YOUR-ORG/collar-landing)** | A link page for your collar tag. Scan the QR code or tap the NFC chip to open it. Includes a private dashboard for you and your keyholder. | 🟠 On the stand |
+| [Next build] | | |
 
-> **Pit lane:** Every build is meant to be forked and run on your own server. Grab one, tune it, ride it.
+<sub>🟠 On the stand: in progress · 🏁 Race ready: stable and safe to run</sub>
 
-## 🔧 Wrenching on a Build
+## WRENCH ON IT
 
-1. **Fork it.** Make it yours.
-2. **Read the build's README** for setup, since every bike's a little different.
-3. **Open an issue** if something rattles loose.
-4. **Send a PR** if you fixed it. Clean welds only.
+Each build ships with its own setup guide. Fork it, tune it, make it yours.
 
-<img src="./assets/divider.svg" width="100%" alt="">
+Something rattling loose? Open an issue. Fixed it yourself? Send a pull request. Anything else, [message me](https://eragon.mx).
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img alt="" src="./assets/divider-dark.svg" width="100%">
+</picture>
 
-**[eragon.mx](https://eragon.mx)** · see you at the track 🏁
-
-<sub>Built in the garage · All builds open source unless noted</sub>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/signoff-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/signoff-light.svg">
+  <img alt="eragon.mx shield" src="./assets/signoff-dark.svg" width="220">
+</picture>
